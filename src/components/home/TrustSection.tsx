@@ -13,8 +13,8 @@ const features = [
   },
   {
     icon: Award,
-    title: "10+ Years Experience",
-    description: "Decade of trusted service in the Pretoria area.",
+    title: "9+ Years Qualified",
+    description: "5 years as Eloff Plumbing serving Cape Town.",
   },
   {
     icon: ThumbsUp,

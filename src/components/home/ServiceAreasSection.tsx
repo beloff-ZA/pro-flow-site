@@ -1,18 +1,18 @@
 import { MapPin } from "lucide-react";
 
 const areas = [
-  "Pretoria East",
-  "Pretoria North",
-  "Pretoria Central",
-  "Pretoria West",
-  "Moot / Gezina",
-  "Centurion",
-  "Midrand",
-  "Hatfield",
-  "Menlyn",
-  "Brooklyn",
-  "Waterkloof",
-  "Lynnwood",
+  "Boston",
+  "Bellville",
+  "Cape Town CBD",
+  "Northern Suburbs",
+  "Southern Suburbs",
+  "Durbanville",
+  "Brackenfell",
+  "Kraaifontein",
+  "Parow",
+  "Goodwood",
+  "Milnerton",
+  "Table View",
 ];
 
 export function ServiceAreasSection() {
@@ -24,7 +24,7 @@ export function ServiceAreasSection() {
             <span className="text-accent">Areas</span> We Serve
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            We provide professional plumbing services throughout Pretoria and surrounding areas.
+            We provide professional plumbing services throughout Cape Town and surrounding areas.
           </p>
         </div>
 

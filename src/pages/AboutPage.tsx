@@ -27,18 +27,18 @@ const values = [
 ];
 
 const areas = [
-  "Pretoria East",
-  "Pretoria North",
-  "Pretoria Central",
-  "Pretoria West",
-  "Moot / Gezina",
-  "Centurion",
-  "Midrand",
-  "Hatfield",
-  "Menlyn",
-  "Brooklyn",
-  "Waterkloof",
-  "Lynnwood",
+  "Boston",
+  "Bellville",
+  "Cape Town CBD",
+  "Northern Suburbs",
+  "Southern Suburbs",
+  "Durbanville",
+  "Brackenfell",
+  "Kraaifontein",
+  "Parow",
+  "Goodwood",
+  "Milnerton",
+  "Table View",
 ];
 
 export default function AboutPage() {
@@ -56,8 +56,8 @@ export default function AboutPage() {
                 The Plumber You Can Trust!
               </p>
               <p className="text-primary-foreground/70">
-                With over 10 years of experience serving the Pretoria community, Eloff Plumbing 
-                has built a reputation for reliable, professional plumbing services. From emergency 
+                With 9 years of qualified experience and 5 years serving the Cape Town community as Eloff Plumbing, 
+                we've built a reputation for reliable, professional plumbing services. From emergency 
                 repairs to complete bathroom renovations, we handle it all with expertise and care.
               </p>
             </div>
@@ -79,9 +79,9 @@ export default function AboutPage() {
             <h2 className="text-3xl font-bold mb-6">Our Story</h2>
             <p className="text-muted-foreground mb-6">
               Eloff Plumbing was founded with a simple mission: to provide honest, reliable 
-              plumbing services to homes and businesses in Pretoria. What started as a one-man 
-              operation has grown into a trusted team of professional plumbers, but our core 
-              values remain the same.
+              plumbing services to homes and businesses in Cape Town. With 9 years of qualified 
+              plumbing experience and 5 years operating as Eloff Plumbing, we've grown from a 
+              one-man operation into a trusted team of professional plumbers.
             </p>
             <p className="text-muted-foreground mb-6">
               We believe in doing things right the first time. That means arriving on time, 
@@ -123,7 +123,7 @@ export default function AboutPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4">Areas We Serve</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              We provide professional plumbing services throughout Pretoria and surrounding areas.
+              We provide professional plumbing services throughout Cape Town and surrounding areas.
             </p>
           </div>
           <div className="flex flex-wrap justify-center gap-3 max-w-4xl mx-auto">

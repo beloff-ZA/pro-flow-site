@@ -37,7 +37,7 @@ export function TestimonialsSection() {
             What Our <span className="text-accent">Customers Say</span>
           </h2>
           <p className="text-primary-foreground/80 max-w-2xl mx-auto">
-            Don't just take our word for it - hear from our satisfied customers across Pretoria.
+            Don't just take our word for it - hear from our satisfied customers across Cape Town.
           </p>
         </div>
 
