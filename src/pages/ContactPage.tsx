@@ -260,7 +260,7 @@ export default function ContactPage() {
                       </div>
                       <div>
                         <div className="font-semibold">Service Area</div>
-                        <span className="text-muted-foreground">Pretoria & Surrounding Areas</span>
+                        <span className="text-muted-foreground">Cape Town & Surrounding Areas</span>
                       </div>
                     </CardContent>
                   </Card>

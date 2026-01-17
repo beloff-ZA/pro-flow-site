@@ -11,11 +11,11 @@ const services = [
 ];
 
 const areas = [
-  "Pretoria East",
-  "Pretoria North",
-  "Moot/Gezina",
-  "Centurion",
-  "Midrand",
+  "Boston",
+  "Bellville",
+  "Cape Town CBD",
+  "Northern Suburbs",
+  "Southern Suburbs",
 ];
 
 export function Footer() {
@@ -27,7 +27,7 @@ export function Footer() {
           <div className="space-y-4">
             <img src={logo} alt="Eloff Plumbing" className="h-12 w-auto brightness-0 invert" />
             <p className="text-sm text-primary-foreground/80">
-              The Plumber You Can Trust! Professional plumbing services for residential and commercial properties in Pretoria.
+              The Plumber You Can Trust! Professional plumbing services for residential and commercial properties in Cape Town.
             </p>
             <p className="text-sm italic text-accent">
               "We repair what your husband fixed"
@@ -82,7 +82,7 @@ export function Footer() {
               <li className="flex items-start gap-2 text-sm">
                 <MapPin className="h-4 w-4 text-accent mt-0.5" />
                 <span className="text-primary-foreground/80">
-                  Pretoria, Gauteng, South Africa
+                  Cape Town, Western Cape, South Africa
                 </span>
               </li>
               <li className="flex items-start gap-2 text-sm">

@@ -23,7 +23,7 @@ export function HeroSection() {
               <span className="text-accent">Trust!</span>
             </h1>
             <p className="text-lg text-primary-foreground/80 md:text-xl">
-              Professional plumbing services in Pretoria. From blocked drains to geyser repairs, 
+              Professional plumbing services in Cape Town. From blocked drains to geyser repairs, 
               we handle it all with expertise and care.
             </p>
             <p className="text-sm italic text-accent">
@@ -57,8 +57,8 @@ export function HeroSection() {
             </div>
             {/* Trust Badge */}
             <div className="absolute -bottom-4 -left-4 md:-bottom-6 md:-left-6 bg-accent text-accent-foreground rounded-xl p-4 shadow-lg">
-              <div className="text-2xl md:text-3xl font-bold">10+</div>
-              <div className="text-xs md:text-sm">Years Experience</div>
+              <div className="text-2xl md:text-3xl font-bold">9+</div>
+              <div className="text-xs md:text-sm">Years Qualified</div>
             </div>
           </div>
         </div>
