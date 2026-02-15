@@ -43,7 +43,7 @@ export function Header() {
 
         {/* Emergency Button */}
         <div className="hidden md:flex items-center gap-4">
-          <a href="tel:+27616442526" className="flex items-center gap-2 text-sm font-semibold text-accent">
+          <a href="tel:+27616642526" className="flex items-center gap-2 text-sm font-semibold text-accent">
             <Phone className="h-4 w-4" />
             24/7 Emergency
           </a>
@@ -81,9 +81,9 @@ export function Header() {
               </Link>
             ))}
             <hr className="border-border" />
-            <a href="tel:+27616442526" className="flex items-center gap-2 text-sm font-semibold text-accent">
+            <a href="tel:+27616642526" className="flex items-center gap-2 text-sm font-semibold text-accent">
               <Phone className="h-4 w-4" />
-              24/7 Emergency: 061 644 2526
+              24/7 Emergency: 061 664 2526
             </a>
             <Button asChild className="bg-accent text-accent-foreground hover:bg-accent/90 w-full">
               <Link to="/contact" onClick={() => setIsMenuOpen(false)}>Get a Quote</Link>

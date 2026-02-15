@@ -90,7 +90,7 @@ const servicesData: Record<string, {
   "emergency-plumbing": {
     title: "24/7 Emergency Plumbing",
     description: "Round-the-clock emergency plumbing services when you need us most.",
-    longDescription: "Plumbing emergencies don't wait for convenient hours. That's why we offer 24/7 emergency plumbing services across Pretoria. Our rapid response team is ready to handle any urgent plumbing situation.",
+    longDescription: "Plumbing emergencies don't wait for convenient hours. That's why we offer 24/7 emergency plumbing services across Cape Town. Our rapid response team is ready to handle any urgent plumbing situation.",
     features: [
       "Available 24 hours, 7 days a week",
       "Fast response times",
@@ -227,7 +227,7 @@ export default function ServicePage() {
               </Link>
             </Button>
             <Button asChild size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10">
-              <a href="tel:+27616442526">
+              <a href="tel:+27616642526">
                 <Phone className="mr-2 h-4 w-4" />
                 Call Now
               </a>

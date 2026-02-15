@@ -10,7 +10,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { useToast } from "@/hooks/use-toast";
 import { supabase } from "@/integrations/supabase/client";
 
-const WHATSAPP_NUMBER = "27616442526";
+const WHATSAPP_NUMBER = "27616642526";
 
 const serviceTypes = [
   "Blocked Drains",
@@ -140,7 +140,7 @@ export default function ContactPage() {
                     id="address"
                     value={formData.address}
                     onChange={(e) => setFormData({ ...formData, address: e.target.value })}
-                    placeholder="123 Main Street, Pretoria East"
+                    placeholder="123 Main Street, Cape Town"
                   />
                 </div>
 
@@ -218,8 +218,8 @@ export default function ContactPage() {
                       </div>
                       <div>
                         <div className="font-semibold">Phone</div>
-                        <a href="tel:+27616442526" className="text-accent hover:underline">
-                          061 644 2526
+                        <a href="tel:+27616642526" className="text-accent hover:underline">
+                          061 664 2526
                         </a>
                       </div>
                     </CardContent>
@@ -287,9 +287,9 @@ export default function ContactPage() {
                     Don't wait! Call us immediately for burst pipes, flooding, or other urgent issues.
                   </p>
                   <Button asChild size="lg" variant="destructive" className="w-full">
-                    <a href="tel:+27616442526">
+                    <a href="tel:+27616642526">
                       <Phone className="mr-2 h-4 w-4" />
-                      Call Emergency Line: 061 644 2526
+                      Call Emergency Line: 061 664 2526
                     </a>
                   </Button>
                 </CardContent>
