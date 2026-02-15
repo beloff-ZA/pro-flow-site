@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { Phone, MessageCircle, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-const WHATSAPP_NUMBER = "27616442526";
+const WHATSAPP_NUMBER = "27616642526";
 const WHATSAPP_MESSAGE = "Hi, I need plumbing help!";
 
 export function CTASection() {
@@ -26,9 +26,9 @@ export function CTASection() {
               </Link>
             </Button>
             <Button asChild size="lg" variant="outline" className="border-accent-foreground/30 text-accent-foreground hover:bg-accent-foreground/10">
-              <a href="tel:+27616442526">
+              <a href="tel:+27616642526">
                 <Phone className="mr-2 h-4 w-4" />
-                Call: 061 644 2526
+                Call: 061 664 2526
               </a>
             </Button>
             <Button asChild size="lg" variant="outline" className="border-accent-foreground/30 text-accent-foreground hover:bg-accent-foreground/10">

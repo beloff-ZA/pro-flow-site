@@ -41,7 +41,7 @@ export function ServiceAreasSection() {
         </div>
 
         <p className="text-center text-sm text-muted-foreground mt-8">
-          Don't see your area? <a href="tel:+27616442526" className="text-accent hover:underline">Call us</a> - we may still be able to help!
+          Don't see your area? <a href="tel:+27616642526" className="text-accent hover:underline">Call us</a> - we may still be able to help!
         </p>
       </div>
     </section>
