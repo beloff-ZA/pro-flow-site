@@ -116,7 +116,7 @@ export function HeroSection() {
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="border-accent text-accent hover:bg-accent/10">
+            <Button asChild size="lg" className="bg-primary-foreground text-primary hover:bg-primary-foreground/90">
               <a href="tel:+27616442526">
                 <Phone className="mr-2 h-4 w-4" />
                 Call Now: 061 644 2526
